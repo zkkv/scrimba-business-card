@@ -1,5 +1,15 @@
+import Info from './Info'
+import About from './About'
+import Interests from './Interests'
+import Footer from './Footer'
+
 export default function App() {
 	return (
-		<h1>Test</h1>
+		<>
+			<Info />
+			<About />
+			<Interests />
+			<Footer />
+		</>
 	)
 }
