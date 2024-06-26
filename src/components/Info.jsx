@@ -1,3 +1,6 @@
+import email_icon from "../../assets/email.svg"
+import linkedin_icon from "../../assets/linkedin.svg"
+
 export default function Info() {
 	return (
 		<>
@@ -6,11 +9,11 @@ export default function Info() {
 			<a id="personal-website" href="https://example.com">spiderman.com</a>
 			<menu id="main-links-menu">
 				<li><a id="email-anchor" href="mailto:user@example.com">
-					<img src="../../assets/email.svg" alt="Email pictogram" />
+					<img src={email_icon} alt="Email pictogram" />
 					<div>Email</div>
 				</a></li>
 				<li><a id="linkedin-anchor" href="https://www.linkedin.com">
-					<img src="../../assets/linkedin.svg" alt="LinkedIn pictogram" />
+					<img src={linkedin_icon} alt="LinkedIn pictogram" />
 					<div>LinkedIn</div>
 				</a></li>
 			</menu>
