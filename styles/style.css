@@ -1,3 +1,76 @@
 * {
 	box-sizing: border-box;
 }
+
+body {
+	background-color: #23252C;
+	font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#personal-image {
+	width: 400px;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#top-level-container {
+	background-color: #1A1B21;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: min-content;
+}
+
+#text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 50px;
+}
+
+h1 {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 25pt;
+	margin: 0px;
+}
+
+h2 {
+	color: #F3BF99;
+	font-weight: normal;
+	font-size: 12.8pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+h3 {
+	color: #F5F5F5;
+	font-weight: bold;
+	font-size: 16pt;
+	align-self: flex-start;
+	margin: 0;
+}
+
+p {
+	color: #DCDCDC;
+	font-weight: normal;
+	font-size: 10.24pt;
+}
+
+#personal-website {
+	color: #F5F5F5;
+	text-decoration-line: none;
+	font-weight: normal;
+	font-size: 10.24pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+footer {
+	background-color: #161619;
+	width: 100%;
+}
