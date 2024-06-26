@@ -4,7 +4,7 @@
 
 body {
 	background-color: #23252C;
-	font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif
+	font-family: Inter, Tahoma, Geneva, Verdana, sans-serif
 }
 
 #personal-image {
@@ -36,7 +36,7 @@ h1 {
 	color: #FFF;
 	font-weight: bold;
 	font-size: 25pt;
-	margin: 0px;
+	margin: 0;
 }
 
 h2 {
@@ -53,6 +53,11 @@ h3 {
 	font-size: 16pt;
 	align-self: flex-start;
 	margin: 0;
+}
+
+menu {
+	padding-left: 0;
+	list-style-type: none;
 }
 
 p {
@@ -73,4 +78,45 @@ p {
 footer {
 	background-color: #161619;
 	width: 100%;
+}
+
+#footer-menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+}
+
+/* .footer-anchor {
+	margin: 10px;
+} */
+
+#footer-menu > li > a {
+	margin: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	/* This "hack" hides text and replaces it with image */
+	display: inline-block;
+    overflow: hidden;
+    width: 0;
+	height: 25px;
+    padding-left: 25px;
+}
+
+#twitter-anchor {
+	background-image: url("../assets/twitter.svg");
+}
+
+#facebook-anchor {
+	background-image: url("../assets/facebook.svg");
+}
+
+#instagram-anchor {
+	background-image: url("../assets/instagram.svg");
+}
+
+#github-anchor {
+	background-image: url("../assets/github.svg");
 }
