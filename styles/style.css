@@ -33,7 +33,7 @@ body {
 }
 
 h1 {
-	color: #FFF;
+	color: white;
 	font-weight: bold;
 	font-size: 25pt;
 	margin: 0;
@@ -73,6 +73,41 @@ p {
 	font-size: 10.24pt;
 	margin-top: 5px;
 	margin-bottom: 5px;
+}
+
+#main-links-menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+#main-links-menu > li > a {
+	padding: 10px 22px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	text-decoration-line: none;
+	font-size: 14pt;
+	font-weight: medium;
+	width: 100%;
+}
+
+#main-links-menu > li > a > div {
+	display: inline;
+	margin-left: 10px;
+}
+
+#email-anchor {
+	background-color: white;
+	color: black;
+}
+
+#linkedin-anchor {
+	background-color: #5093E2;
+	color: white;
 }
 
 footer {
