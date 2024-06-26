@@ -9,6 +9,8 @@ body {
 
 #personal-image {
 	width: 400px;
+	border-top-left-radius: 10pt;
+	border-top-right-radius: 10pt;
 }
 
 #root {
@@ -18,18 +20,19 @@ body {
 }
 
 #top-level-container {
-	background-color: #1A1B21;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: min-content;
+	margin: 10px;
 }
 
 #text-container {
+	background-color: #1A1B21;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 20px 50px;
+	padding: 20px 45px;
 }
 
 h1 {
@@ -75,6 +78,10 @@ p {
 	margin-bottom: 5px;
 }
 
+#personal-website:hover {
+	text-decoration-line: underline;
+}
+
 #main-links-menu {
 	display: flex;
 	flex-direction: row;
@@ -93,6 +100,7 @@ p {
 	font-size: 14pt;
 	font-weight: medium;
 	width: 100%;
+	border-radius: 5pt;
 }
 
 #main-links-menu > li > a > div {
@@ -113,6 +121,8 @@ p {
 footer {
 	background-color: #161619;
 	width: 100%;
+	border-bottom-left-radius: 10pt;
+	border-bottom-right-radius: 10pt;
 }
 
 #footer-menu {
