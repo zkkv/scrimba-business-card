@@ -5,3 +5,6 @@ Deployed website can be found [here](https://zkkv.github.io/scrimba-business-car
 
 ## Screenshots
 ![A screenshot of the finished business card](/media/result.png?raw=true)
+
+## Developer
+Developed by zkkv, 06/2024
